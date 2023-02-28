@@ -1,0 +1,89 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+@import url('https://fonts.cdnfonts.com/css/arial-2');
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.header {
+    background-image: url(images/torshov-image.png);
+    background-size: cover;
+    height: 343px;
+    margin-bottom: 10px;
+    max-width: 720px;
+    margin: 0px auto;
+}
+
+#title {
+    font-size: 16px;
+    padding: 5px 5px;
+    background-color: #A8DADC;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+
+
+}
+
+#sub-title {
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100px;
+}
+
+.activities {
+    background-color: #F1FAEE;
+    max-width: 720px;
+    margin: 0px auto;
+
+}
+
+#activities-header {
+    margin-top: 20px;
+}
+
+.img-section {
+    display: flex;
+    max-width: 720px;
+    margin: 0px auto;
+
+}
+
+.img-section img {
+    border-radius: 50%;
+    justify-content: space-evenly;
+    /* margin-left:auto;
+     margin-right:auto; */
+}
+
+.img-section img h2 {
+    font-size: 16px;
+    font-weight: 700px;
+    font-family: 'Arial', sans-serif;
+    color: #1D3557;
+}
+
+.guide-section {
+    display: flex;
+    background-color: #A8DADC;
+    text-align: center;
+
+}
+
+#guides-section {
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
